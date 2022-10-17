@@ -19,7 +19,7 @@ export default function TeamphotoComponent({buttonText}) {
                 <img src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="..."/>
                 <div class="card-body">
                 <h5 class="card-title">Dasha Primoshkaya</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that</p>
                 <Link to="/about/">
                     <button className="btn btn-warning btn-lg">{buttonText}</button>
                 </Link>

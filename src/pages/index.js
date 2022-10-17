@@ -10,7 +10,7 @@ import Coursecart from "../components/Cart/Coursecart"
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <HeroSection img= {data.img.childImageSharp.fluid} title="Web Development World" subtitle="Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner." heroclass="hero-background"/>
+    <HeroSection img= {data.img.childImageSharp.fluid} title="Web Development World" subtitle="Web Development World is all about teaching web development skills and techniques in an efficient and practical manner." heroclass="hero-background"/>
     <Infoblock heading="About Us"/>
     <Coursecart course={data.mycourses.edges}/>
     <DualInfoblock 

@@ -12,7 +12,6 @@ const ContactPage = ({data}) => (
     <Seo title="Home" />
     <HeroSection img= {data.img.childImageSharp.fluid} title="Contact Us"  heroclass="about-background"/>
     <Infoblock heading="How can we help?"/>
-    <ServciesCardComponent title="Our Services"/>
     <Contactus/>
   </Layout>
 )
